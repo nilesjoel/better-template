@@ -18,8 +18,7 @@ export function ThemeProvider({ children }) {
   }
 
   useEffect(() => {
-    // useEffect hook call which will be invoked the first time the DOM mount. it is like using componentDidMount in Class Components
-    fetchStudioArtData(); // the function that will be called as soon as the DOM mounted
+    fetchStudioArtData();
   }, []);
 
   // Fetch Symmetry Data
